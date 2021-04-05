@@ -10,7 +10,7 @@ body{
 }
 
 header#cabecalho h1 {
-    color: #BFBB7E;
+    color: #85ff60e5;
     font-family: 'Arvo', serif;
     font-size: 50px;
     display: block;
@@ -47,17 +47,17 @@ nav#menu{
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
-    position: absolute;
-top: 90px;
-left: 520px;
+    position: fixed;
+top: 65px;
+left: 0px;
 }
 nav#menu p{
     display: none;
 }
 nav#menu li{
-    display: inline-block;
-    padding: 10px;
-    margin: 20x;
+    display: block;
+    padding: 20px;
+    margin: 5px;
     font-family: monospace;
     font-size: 2em;
     font-weight: bolder;
