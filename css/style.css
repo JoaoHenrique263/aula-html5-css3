@@ -1,31 +1,90 @@
+@charset "UTF-8"
+
 title {
     color: midnightblue;
 }
 
 body{ 
-    background: chartreuse;
-    margin-left: 400px;
+    background-image: url(../img/bg.jpg);
+
 }
 
-h1 {
-    color: mediumblue;
-    font-family: fantasy;
-
+header#cabecalho h1 {
+    color: #BFBB7E;
+    font-family: 'Arvo', serif;
+    font-size: 50px;
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+    
 }
 
 h2 {
     font-family: monospace;
 }
 p {
-    font-size: 20px;
+    font-size: 15px;
+
 }
 h2 {
-    font-size: 50px;
+    font-size: 45px;
 }
 h1 {
     font-size: 80px;
 }
+
 .img_padrao {
     margin-bottom: 20px;
     width: 400px;
 }
+
+/*estilizando o menu*/
+
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+top: 90px;
+left: 520px;
+}
+nav#menu p{
+    display: none;
+}
+nav#menu li{
+    display: inline-block;
+    padding: 10px;
+    margin: 20x;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bolder;
+    box-shadow: 0px 0px 3px rgb(12, 12, 12);
+}
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: white;
+}
+nav#menu li{
+    background-color: rgb(204, 204, 204);
+}
+nav#menu li:hover{
+    background-color: gray;
+    transition: background-color 1s;
+}
+div#interface{ 
+    width: 1200px;
+    background-color: rgb(251, 253, 239);
+    box-shadow: 0px 0px 10px rgb(12, 12, 12);
+    padding: 10px;
+    margin: 80px 400px 0px auto;
+    font-family: 'Arvo', serif;
+    
+}
+
+
